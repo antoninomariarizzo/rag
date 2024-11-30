@@ -6,6 +6,7 @@
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![GitHub license](https://badgen.net/github/license/Naereen/Strapdown.js)](https://github.com/antoninomariarizzo/rag/blob/main/LICENSE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/antoninomariarizzo/rag/blob/main/demo.ipynb)
 
 
 <div style="text-align: center;">
@@ -38,10 +39,14 @@ By combining retrieval with generation, our RAG system reduces the risk of inacc
 ### Install
 1. Clone our repository.
 
-2. Install required libraries by running `pip install -r requirements.txt`.
+2. Install Google tesseract by running `apt-get install -y tesseract-ocr`.
 
-3. Install our package in editable mode by running:
+3. Install required libraries by running `pip install -r requirements.txt`.
+
+4. Install our package in editable mode by running:
 `pip3 install -e .` from the root folder.
+
+5. Create `.env` file in the root folder and add the Hugging Face token. Example `HF_TOKEN="123456abcd"`.
 
 
 ### Usage
